@@ -19,7 +19,7 @@ var alerta=document.querySelector('#mensagem-alerta');
                 var substituindo=substituindo.replace(/u/igm,'ufat');
 
                     alerta.textContent=substituindo;
-                    alerta.classList.add('texto-final');
+                    alerta.setAttribute('id','texto-final');
 
                     document.querySelector('#botao-copiar').innerHTML='<button class="copiar" onclick="copiar()">Copiar</button>'
             }
