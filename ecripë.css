@@ -166,6 +166,7 @@ body {
     border: none;
     outline: none;
     resize: none;
+    text-transform: lowercase;
 }
 
 #botao-copiar {
